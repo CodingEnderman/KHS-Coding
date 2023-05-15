@@ -1,3 +1,5 @@
 import module as mod
 
-mod.test()
+word = input("Enter a word: ")
+num = int(input("Enter a number: "))
+print(mod.concat(word,num))

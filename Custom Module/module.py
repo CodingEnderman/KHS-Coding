@@ -1,2 +1,3 @@
-def test():
-    print("Testing 123")
+def concat(str,num):
+    str = str*num
+    return str
